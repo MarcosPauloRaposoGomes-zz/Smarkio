@@ -53,9 +53,9 @@ const { IamAuthenticator } = require('ibm-watson/auth');
         //Authenticate 
         const textToSpeech = new TextToSpeechV1({
             authenticator: new IamAuthenticator({
-            apikey: 'dMupZBXELrrbouLw6mnj6g5SjExqJpo6UUQlvZf3mlrI',
+            apikey: '{}',
             }),
-            serviceUrl: 'https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/f559156e-ff43-4bc6-9151-84a17c3e6b9c',
+            serviceUrl: '{}',
             disableSslVerification: true,//Desabilidando SSL por estar sendo executado no localhost?
         });
 
