@@ -1,0 +1,16 @@
+<section>
+    <section class="inputComment">
+        <h3>Comentário: </h3>
+        <form action="/" method="POST">
+            <textarea name="comment" class="button"></textarea>
+            <button id="formButton" type="submit" class="button">Cadastrar</button>
+        </form>
+    </section>
+    <section class="commentsList">
+        <h3>Comentários</h3>
+        {{#each comments}}
+            <p>{{this}}</p>
+            <button type="button" class="playButton">Ouvir</button>
+        {{/each}}
+    </section>
+</section>

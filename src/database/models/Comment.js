@@ -7,7 +7,7 @@ const db = require('../config/databaseconfig')
         }
     })
 
-    //Usar apenas no primeiro build
-    Comment.sync({force:true})
+    //Only in the first build
+    //Comment.sync({force:true})
 
     module.exports = Comment

@@ -1,0 +1,31 @@
+{
+  "name": "Smarkio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "handlebars": "^4.7.6",
+    "ibm-watson": "^6.0.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosPauloRaposoGomes/Smarkio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcosPauloRaposoGomes/Smarkio/issues"
+  },
+  "homepage": "https://github.com/MarcosPauloRaposoGomes/Smarkio#readme"
+}

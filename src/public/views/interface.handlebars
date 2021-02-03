@@ -1,0 +1,21 @@
+    <section>
+    <section class="inputComment">
+        <form action="/" method="POST">
+            <h3>Comentário: </h3>
+            <textarea name="comment" class="button" autocomplete="off"></textarea>
+            <button id="formButton" type="submit" onclick="makeRequest()" class="button">Cadastrar</button>
+        </form>
+    </section>
+    <section class="commentsList">
+        <h3>Comentários</h3>
+        <ul>
+            {{#each comments}}
+                <li>
+                    <p>{{this}}</p>
+                    <button type="button" onclick="speak({{this}})" class="playButton">Ouvir</button>
+                </li>
+            {{/each}}
+        </ul>
+        <script src="../public/javascripts/texttospeech.js"></script>
+    </section>
+</section>
